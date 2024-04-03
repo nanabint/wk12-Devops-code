@@ -12,9 +12,6 @@ provider "aws" {
   region = "us-east-1"
 }
 
-data "aws_instance" "ec21" {
-  instance_id = "i-066be94ffa656ec77"
-}
 
 resource "aws_instance" "demo" {
   ami = data.aws_instance.ec21.ami

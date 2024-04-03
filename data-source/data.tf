@@ -18,6 +18,6 @@ data "aws_ami" "ami1" {
   }
 }
 data "aws_instance" "ec21" {
-    instance_id = "i-066be94ffa656ec77"
+    instance_id = "i-029d793583cc03468"
   
 }
